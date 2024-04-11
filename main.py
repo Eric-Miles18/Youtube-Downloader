@@ -1,8 +1,7 @@
 from pytube import *
 
 runState = True
-path = str(input("Enter the path you want to save on: "))
-path = path + "/"
+path = str(input("Enter the path you want to save on: ")) + "\\"
 
 def Video():
     link = str(input("Enter the url of the vedio: "))
